@@ -1,0 +1,1 @@
+# strictdoc.github.io
