@@ -1,0 +1,874 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8"/>
+  <meta name="keywords" content="strictdoc, documentation, documentation-tool, requirements-management, requirements, documentation-generator, requirement-specifications, requirements-engineering, technical-documentation, requirements-specification"/>
+  <meta name="description" content="strictdoc. Software for technical documentation and requirements management."/>
+
+  <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon"/>
+
+  
+  
+  <link rel="stylesheet" href="../../assets/base.css"/>
+  <link rel="stylesheet" href="../../assets/layout.css"/>
+  <link rel="stylesheet" href="../../assets/content.css"/>
+  <link rel="stylesheet" href="../../assets/node.css"/>
+  <link rel="stylesheet" href="../../assets/requirement.css"/>
+  <link rel="stylesheet" href="../../assets/requirement__temporary.css"/>
+  <link rel="stylesheet" href="../../assets/element.css"/>
+  <link rel="stylesheet" href="../../assets/form.css"/>
+  
+  <link rel="stylesheet" href="../../assets/requirement-tree.css"/>
+
+
+  
+  <script type="text/javascript" src="../../assets/viewtype_menu.js"></script>
+  <script type="text/javascript" src="../../assets/resizable_bar.js"></script>
+  <script type="text/javascript" src="../../assets/pan_with_space.js"></script>
+  
+  
+  
+
+
+  <title>User Guide - Deep Traceability</title>
+
+  
+</head>
+
+<body data-viewtype="deep_traceability" data-turbo="false"><div class="layout" id="layout">
+
+    <nav class="layout_nav">
+      <div class="nav">
+
+
+
+  <a
+    data-link="index"
+    class="nav_button"
+    href="../../index.html"
+    title="Project index">
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line x1="9" y1="4" x2="7" y2="4"></line>
+  <line x1="12" y1="9" x2="12" y2="7"></line>
+  <line x1="6" y1="10" x2="10" y2="6"></line>
+  <circle cx="4" cy="12" r="2.25"></circle>
+  <circle cx="12" cy="4" r="2.25"></circle>
+  <circle cx="4" cy="4" r="2.25"></circle>
+  <circle cx="12" cy="12" r="2.25"></circle>
+</svg>
+  </a><a
+    data-link="project_information"
+    class="nav_button"
+    href="../../project_statistics.html"
+    title="Project statistics"
+    data-testid="project-tree-link-project-statistics"
+  >
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M3,11.5 C3.82842712,11.5 4.5,12.1715729 4.5,13 C4.5,13.8284271 3.82842712,14.5 3,14.5 C2.17157288,14.5 1.5,13.8284271 1.5,13 C1.5,12.1715729 2.17157288,11.5 3,11.5 Z"></path>
+  <path d="M8,7.5 C8.82842712,7.5 9.5,8.17157288 9.5,9 L9.5,13 C9.5,13.8284271 8.82842712,14.5 8,14.5 C7.17157288,14.5 6.5,13.8284271 6.5,13 L6.5,9 C6.5,8.17157288 7.17157288,7.5 8,7.5 Z"></path>
+  <path d="M13,1.5 C13.8284271,1.5 14.5,2.17157288 14.5,3 L14.5,13 C14.5,13.8284271 13.8284271,14.5 13,14.5 C12.1715729,14.5 11.5,13.8284271 11.5,13 L11.5,3 C11.5,2.17157288 12.1715729,1.5 13,1.5 Z"></path>
+</svg>
+  </a></div>
+    </nav><aside class="layout_tree">
+      
+  
+
+
+
+<div
+  js-resizable_bar="tree"
+  data-state="open"
+  data-position="left"
+>
+<div class="tree">
+      
+          <div
+            class="tree_item"
+            data-level="1"
+            data-testid="tree-folder-item"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>docs</div>
+        
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_01_user_guide.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="User Guide"
+              data-file_name="strictdoc_01_user_guide.sdoc"
+            >User Guide</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_02_faq.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="F.A.Q."
+              data-file_name="strictdoc_02_faq.sdoc"
+            >F.A.Q.</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_03_development_plan.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Development Plan"
+              data-file_name="strictdoc_03_development_plan.sdoc"
+            >Development Plan</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_10_contributing.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Contributing to StrictDoc"
+              data-file_name="strictdoc_10_contributing.sdoc"
+            >Contributing to StrictDoc</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_11_developer_guide.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Developer Guide"
+              data-file_name="strictdoc_11_developer_guide.sdoc"
+            >Developer Guide</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_20_requirements.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Requirements"
+              data-file_name="strictdoc_20_requirements.sdoc"
+            >Requirements</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_21_design.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Design Document"
+              data-file_name="strictdoc_21_design.sdoc"
+            >Design Document</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_30_credits.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Credits"
+              data-file_name="strictdoc_30_credits.sdoc"
+            >Credits</div>
+          </a>
+      </div>
+</div>
+
+    </aside><aside
+        data-position="right"
+        class="layout_toc"
+      >
+        
+  
+
+
+
+<div
+  js-resizable_bar="toc"
+  data-state="open"
+  data-position="right"
+>
+<turbo-frame
+  id="frame-toc"
+  style="display: contents"
+>
+    <ul
+      data-testid="toc-list"
+      js-collapsible_list="list"
+      class="toc"
+      data-controller="draggable_list collapsible_list"><li data-nodeid="099de75862804cd08ea9c24a29e846aa"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                1
+              </span>Introduction
+            </span>
+          <ul><li data-nodeid="37da8451f42e40fba0ddeb38f37c6285"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                1.1
+              </span>Contact the developers
+            </span>
+          </li></ul>
+            </li><li data-nodeid="0fc838b460314479aba12de7a9532b44"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                2
+              </span>Examples
+            </span>
+          <ul><li data-nodeid="aee77819cfec47ad89432e8a59e0947b"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                2.1
+              </span>Hello World
+            </span>
+          </li><li data-nodeid="f7c586e2b7b44f128da280cc03903491"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                2.2
+              </span>StrictDoc Examples repository
+            </span>
+          </li><li data-nodeid="80420f403a964191b1a7eec8d3d6e221"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                2.3
+              </span>StrictDoc Templates repository
+            </span>
+          </li><li data-nodeid="6fb5ca6f0b8a441ea3d10fd9d79968a2"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                2.4
+              </span>Other examples
+            </span>
+          </li></ul>
+            </li><li data-nodeid="c6b3d3e1edff475f9c1618b0cef7a4da"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                3
+              </span>Installing StrictDoc
+            </span>
+          <ul><li data-nodeid="716f1fc1880b4ccdbc434abcdf41c931"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                3.1
+              </span>Requirements
+            </span>
+          </li><li data-nodeid="7f9d90fc971e44ae94ee3a5ba5ee24a8"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                3.2
+              </span>Installing StrictDoc as a Pip package (recommended way)
+            </span>
+          </li><li data-nodeid="8e9507b9e2a14a8ca6d3cb9b7d37f2bd"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                3.3
+              </span>Installing "nightly" StrictDoc as a Pip package
+            </span>
+          </li><li data-nodeid="fb5e64e6fbc34628a26a6708b8591665"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                3.4
+              </span>Installing StrictDoc into a Docker container
+            </span>
+          </li><li data-nodeid="a392403c495840b286f80d9cfea20e2b"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                3.5
+              </span>Installing StrictDoc as a Snap package (not maintained)
+            </span>
+          </li></ul>
+            </li><li data-nodeid="b59d50502e1d4356813c700d05b935d1"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                4
+              </span>Running StrictDoc
+            </span>
+          <ul><li data-nodeid="abf4e9cfad4b4ef2964a5b2f298502b6"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                4.1
+              </span>Static HTML export
+            </span>
+          </li><li data-nodeid="d40bd969b82e46a2b108269d17f41689"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                4.2
+              </span>Web server
+            </span>
+          </li></ul>
+            </li><li data-nodeid="5c211b99bc2c4500a1d26f7c51a52e46"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                5
+              </span>IDE support
+            </span>
+          </li><li data-nodeid="aefc0cc45e6b468f95fd8941152a24b7"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6
+              </span>SDoc syntax
+            </span>
+          <ul><li data-nodeid="fbd23f23352a498b9a0d543b6ff3355a"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.1
+              </span>Document structure
+            </span>
+          <ul><li data-nodeid="879ccd7c908046f599cba59e69e6b7ef"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.1.1
+              </span>Strict rule #1: One empty line between all nodes
+            </span>
+          </li><li data-nodeid="1ba9244715594e4a9a4f8aad11528ee1"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.1.2
+              </span>Strict rule #2: No content is allowed outside of SDoc grammar
+            </span>
+          </li><li data-nodeid="c5c0103931c147a08cd990166053f57b"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.1.3
+              </span>Strict rule #3: No empty strings
+            </span>
+          </li></ul>
+            </li><li data-nodeid="8d4ffae24c614e0289d869d11bae8dc4"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2
+              </span>Grammar elements
+            </span>
+          <ul><li data-nodeid="fe84c3f5f58f4755a70271ce46366081"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.1
+              </span>Document
+            </span>
+          <ul><li data-nodeid="002a77d658c947ceb832fa13b412212c"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.1.1
+              </span>Document configuration options
+            </span>
+          <ul><li data-nodeid="486c32cdb6d84471821e276e7cfea1c6"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.1.1.1
+              </span>MARKUP
+            </span>
+          </li><li data-nodeid="9bdb52096f9f420cbca9b8a3bf5966a6"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.1.1.2
+              </span>AUTO_LEVELS
+            </span>
+          </li><li data-nodeid="1667f58ca6fa4290838e024df33ace16"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.1.1.3
+              </span>REQUIREMENT_STYLE
+            </span>
+          </li><li data-nodeid="6718a942bb1245a18efb2eb634692319"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.1.1.4
+              </span>REQUIREMENT_IN_TOC
+            </span>
+          </li></ul>
+            </li></ul>
+            </li><li data-nodeid="3b95aeeca55e4a65a3a646413c435bbf"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2
+              </span>Requirement
+            </span>
+          <ul><li data-nodeid="94849726b8454d5bbd988f6938b39e20"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.1
+              </span>UID
+            </span>
+          </li><li data-nodeid="66dd4fea4dc24d739772b5b676105754"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.2
+              </span>Level
+            </span>
+          </li><li data-nodeid="3e24f91d81524fc7a78a8ccbcabe6e7b"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.3
+              </span>Status
+            </span>
+          </li><li data-nodeid="2cd030a60fe140fc93883df8d3c05ed2"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.4
+              </span>Tags
+            </span>
+          </li><li data-nodeid="85bce8dd86674ca690259c286bea8d3f"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.5
+              </span>References (REFS)
+            </span>
+          </li><li data-nodeid="3307da6a739f4a2594916223e6243dce"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.6
+              </span>Title
+            </span>
+          </li><li data-nodeid="08d261b062ba4d498baee1be918c7cc7"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.7
+              </span>Statement
+            </span>
+          </li><li data-nodeid="339049ad7b974dd795545d489693d732"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.8
+              </span>Rationale
+            </span>
+          </li><li data-nodeid="437f0e688cdc42f7861643ae873cd5aa"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.2.9
+              </span>Comment
+            </span>
+          </li></ul>
+            </li><li data-nodeid="cb621a83c152413cbabb0efeaf5174e7"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.3
+              </span>Section
+            </span>
+          <ul><li data-nodeid="09a4ace89389498b880ada10cadca3f2"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.3.1
+              </span>Nesting sections
+            </span>
+          </li><li data-nodeid="3a5048553e084a609758cdeb79ef44c8"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.3.2
+              </span>Free text
+            </span>
+          </li><li data-nodeid="38906325e31b47378ebdcbe57b13a6c7"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.3.3
+              </span>Section without a level
+            </span>
+          </li></ul>
+            </li><li data-nodeid="5db444aea3d8429d9c4e5b83ad0ed13f"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.4
+              </span>Composite requirement
+            </span>
+          </li><li data-nodeid="74e7666a38e94dd8b1d51b865268e509"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.2.5
+              </span>Include files
+            </span>
+          </li></ul>
+            </li><li data-nodeid="833ba61dd57844ff91cf99041f62a056"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.3
+              </span>Custom grammars
+            </span>
+          <ul><li data-nodeid="dd03a2be7f974bd29962c52ac22eb6bd"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.3.1
+              </span>Supported field types
+            </span>
+          </li><li data-nodeid="cc774ce44e2f4d748722c756b4bb99f3"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.3.2
+              </span>Reserved fields
+            </span>
+          </li></ul>
+            </li><li data-nodeid="ee77e2c3cf234a6db9bf4c7b3d78fc64"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.4
+              </span>Links
+            </span>
+          <ul><li data-nodeid="b6c0a73b7c494d8d9b0fea066755c3c0"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.4.1
+              </span>Section links
+            </span>
+          </li><li data-nodeid="e8cd2826ca9f4e26b3054dafe63926fe"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.4.2
+              </span>Anchors
+            </span>
+          <ul><li data-nodeid="a5b286bf53ed4f9896a1637a067338e7"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                6.4.2.1
+              </span>Anchor example
+            </span>
+          </li></ul>
+            </li></ul>
+            </li></ul>
+            </li><li data-nodeid="d8a751b83150466cbd5ec00d32675eee"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                7
+              </span>Markup
+            </span>
+          <ul><li data-nodeid="c68237198316432da3d2d11392fbea6b"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                7.1
+              </span>Images
+            </span>
+          </li><li data-nodeid="eba837fe807f44dc82e68b794959b7bf"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                7.2
+              </span>Mathjax support
+            </span>
+          </li></ul>
+            </li><li data-nodeid="2c18c0c8a4a54c1c81378457977ca33a"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                8
+              </span>Export formats
+            </span>
+          <ul><li data-nodeid="44933c05467047df941889a38bfe31cb"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                8.1
+              </span>HTML documentation tree by StrictDoc
+            </span>
+          <ul><li data-nodeid="f1b5cbbf923446f8ac460fb53900fc4f"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                8.1.1
+              </span>Standalone HTML pages (experimental)
+            </span>
+          </li></ul>
+            </li><li data-nodeid="8479a47e1cd444c4a8db4d25e69d9b30"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                8.2
+              </span>HTML export via Sphinx
+            </span>
+          </li><li data-nodeid="32dd59af6fd94bdf8423108ba26fbb93"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                8.3
+              </span>PDF export via Sphinx/LaTeX
+            </span>
+          </li></ul>
+            </li><li data-nodeid="51e67945eace400da622d83af832a20b"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                9
+              </span>Manage project tree
+            </span>
+          <ul><li data-nodeid="e321c78cebc44dd8a7fa1f0547b4d514"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                9.1
+              </span>Automatic assignment of requirements UID
+            </span>
+          </li></ul>
+            </li><li data-nodeid="0ec09bd48deb4a7ca46f7559abe8ca93"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                10
+              </span>Traceability between requirements and source code
+            </span>
+          </li><li data-nodeid="da2eff4d1e0042fdbc084323ae23d614"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                11
+              </span>ReqIF support
+            </span>
+          <ul><li data-nodeid="febf1ddd601e44a19a7e7589c09ebbb6"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                11.1
+              </span>Import flow (ReqIF -> SDoc)
+            </span>
+          </li><li data-nodeid="669a1744a3ff4d309edf565436d53917"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                11.2
+              </span>Export flow (SDoc -> ReqIF)
+            </span>
+          </li><li data-nodeid="3eedc92c718e4e43a6cf15cd28ec1572"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                11.3
+              </span>ReqIF implementation details
+            </span>
+          </li></ul>
+            </li><li data-nodeid="ccdd807ced7141dfb69a9839ce9f7519"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                12
+              </span>Excel support
+            </span>
+          <ul><li data-nodeid="81bfa53229c64d7f97c3a1d1ab179ca0"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                12.1
+              </span>Import flow (Excel XLS -> SDoc)
+            </span>
+          </li><li data-nodeid="d21441e636584707a922a4430ac0f65f"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                12.2
+              </span>Export flow (SDoc -> Excel XLSX)
+            </span>
+          </li></ul>
+            </li><li data-nodeid="aff96da6836a4498b49df5da0fef8920"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13
+              </span>Options
+            </span>
+          <ul><li data-nodeid="85b0e39f40e649389261fc7e7b27a2b9"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1
+              </span>Project-level options
+            </span>
+          <ul><li data-nodeid="e75495578d7d45f8b2cc72f00bf43ba3"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.1
+              </span>Project title
+            </span>
+          </li><li data-nodeid="c1b7a7fc3835453b9b06539d467e1615"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.2
+              </span>Path to assets
+            </span>
+          </li><li data-nodeid="e44f13b621ab45d5a92b3094a8ff0bd7"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.3
+              </span>Include/exclude document paths
+            </span>
+          </li><li data-nodeid="84d695a265ac46c9ae13a05f508e5959"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.4
+              </span>Include/exclude source files paths
+            </span>
+          </li><li data-nodeid="409598e5cd144d98abdc6f7f4cfeaa29"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.5
+              </span>Selecting features
+            </span>
+          <ul><li data-nodeid="32d81204128e46e5aadf860dc51d4a78"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.5.1
+              </span>Enable all features
+            </span>
+          </li><li data-nodeid="5335e2b0cf634043a2393bdbf1ca09b7"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.5.2
+              </span>Disable all features
+            </span>
+          </li></ul>
+            </li><li data-nodeid="8a0593c209204b50bef5c199267363cb"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.6
+              </span>Server configuration
+            </span>
+          <ul><li data-nodeid="6829a891b5404ca39130416e65c18d62"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.1.6.1
+              </span>Host and port
+            </span>
+          </li></ul>
+            </li></ul>
+            </li><li data-nodeid="e0f5750bfa304f3aae2f2ac7e7304ad1"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.2
+              </span>Command-line interface options
+            </span>
+          <ul><li data-nodeid="57dc8881deab42e9b9ec5fccfeb8708a"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.2.1
+              </span>Project title
+            </span>
+          </li><li data-nodeid="6541fd09dadc45a68f284d36b21651a2"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                13.2.2
+              </span>Parallelization
+            </span>
+          </li></ul>
+            </li></ul>
+            </li><li data-nodeid="325c0bdb95d24ac1a896bf177a243c75"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                14
+              </span>Experimental features
+            </span>
+          <ul><li data-nodeid="7df41151f10b40fcac245aa64e03cf96"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                14.1
+              </span>Project statistics screen
+            </span>
+          </li><li data-nodeid="e48d0fbc41ff4537ae56a22b46283ff6"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                14.2
+              </span>HTML2PDF printable document generator
+            </span>
+          </li><li data-nodeid="9110139e46a14741b3e62a651c28b2fd"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                14.3
+              </span>Mermaid diagramming and charting tool
+            </span>
+          </li><li data-nodeid="bfaaf881d9864cb2b837282460793572"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                14.4
+              </span>Shadow features
+            </span>
+          </li></ul>
+            </li><li data-nodeid="3cfefdcfa9e74104ad678d1da8627aaf"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                15
+              </span>StrictDoc's limitations
+            </span>
+          <ul><li data-nodeid="08602e68c4cc4c6a9bc11a1db2dcb72f"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                15.1
+              </span>Limitations of RST support by StrictDoc
+            </span>
+          </li><li data-nodeid="415a551cc4e1450eb05cecd183bc4596"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                15.2
+              </span>Limitations of web user interface
+            </span>
+          <ul><li data-nodeid="f6e2e3107f134998a9d2509f9147790a"><span class="toc-title-no-link" title="Section has no requirements">
+              <span class="section-number">
+                15.2.1
+              </span>Concurrent use of web user interface
+            </span>
+          </li></ul>
+            </li></ul>
+            </li></ul>
+</turbo-frame>
+</div>
+
+      </aside><header class="layout_header">
+      <div class="header">
+
+  
+  <svg class="svg_icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline points="14 5 14 10.5 8 15 2 10.5 2 5 8 1 14 5 8 9.5"></polyline>
+  <polyline points="2.5 5.5 8 9.5 8 15"></polyline>
+</svg>
+  <div
+    class="header__project_name"
+    title="StrictDoc"
+  >StrictDoc
+  </div>
+
+  
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      <turbo-frame id="header_document_title">
+  <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+  <div
+    class="header__document_title"
+    title="User Guide"
+  >
+    User Guide
+  </div>
+</turbo-frame>
+    
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      <div class="viewtype">
+  <div
+    id="viewtype_handler"
+    class="viewtype__handler"
+    aria-expanded="false"
+    aria-controls="viewtype_menu"
+  >
+    <span>Deep Traceability</span>
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" >
+  <path d="M5 10l3 3 3-3M5 6l3-3 3 3"></path>
+</svg>
+  </div>
+  <menu
+    id="viewtype_menu"
+    class="viewtype__menu"
+    aria-hidden="true"
+    aria-labelledby="viewtype_handler"
+  >
+    <li class="viewtype__menu_header">VIEWS</li>
+    <li>
+      <a
+        data-viewtype_link="document"
+        class="viewtype__menu_item"
+        title="Go to Document view"
+        href="../../strictdoc/docs/strictdoc_01_user_guide.html">
+        Document</a>
+    </li><li>
+      <a
+        data-viewtype_link="table"
+        class="viewtype__menu_item"
+        title="Go to Table view"
+        href="../../strictdoc/docs/strictdoc_01_user_guide-TABLE.html">
+        Table</a>
+    </li><li>
+      <a
+        data-viewtype_link="traceability"
+        class="viewtype__menu_item"
+        title="Go to Traceability view"
+        href="../../strictdoc/docs/strictdoc_01_user_guide-TRACE.html">
+        Traceability</a>
+    </li><li>
+      <a
+        data-viewtype_link="deep_traceability"
+        class="viewtype__menu_item"
+        title="Go to Deep Traceability view"
+        href="../../strictdoc/docs/strictdoc_01_user_guide-DEEP-TRACE.html">
+      Deep traceability</a>
+    </li></menu>
+</div>
+    </div>
+    </header>
+
+    <main class="layout_main">
+      
+  <sdoc-main-placeholder data-testid="document-main-placeholder">
+    This view is empty because
+    <br/>
+    the document has no requirements.
+  </sdoc-main-placeholder>
+
+    </main>
+
+    <footer class="layout_footer">
+      <div class="footer">
+        Built with
+        <a
+          class="strictdoc__link"
+          href="https://github.com/strictdoc-project/strictdoc"
+          target="_blank"
+        >StrictDoc</a>
+        <a
+          class="strictdoc__version"
+          href="https://github.com/strictdoc-project/strictdoc/releases/tag/0.0.44a6"
+          target="_blank"
+        >
+          <svg height="16" viewBox="0 0 16 16" version="1.1" width="16" >
+            <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
+          </svg>
+          0.0.44a6
+        </a>
+      </div>
+    </footer>
+
+    <aside class="layout_aside">
+      
+    </aside>
+
+  </div>
+  
+  <div id="modal"></div>
+  <div id="confirm"></div>
+  
+</body>
+</html>

@@ -1,0 +1,772 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8"/>
+  <meta name="keywords" content="strictdoc, documentation, documentation-tool, requirements-management, requirements, documentation-generator, requirement-specifications, requirements-engineering, technical-documentation, requirements-specification"/>
+  <meta name="description" content="strictdoc. Software for technical documentation and requirements management."/>
+
+  <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon"/>
+
+  
+  <link rel="stylesheet" href="../../assets/base.css"/>
+  <link rel="stylesheet" href="../../assets/layout.css"/>
+  <link rel="stylesheet" href="../../assets/content.css"/>
+  <link rel="stylesheet" href="../../assets/node.css"/>
+  <link rel="stylesheet" href="../../assets/requirement.css"/>
+  <link rel="stylesheet" href="../../assets/requirement__temporary.css"/>
+  <link rel="stylesheet" href="../../assets/element.css"/>
+  <link rel="stylesheet" href="../../assets/form.css"/>
+  
+
+  
+  <script type="text/javascript" src="../../assets/viewtype_menu.js"></script>
+  <script type="text/javascript" src="../../assets/resizable_bar.js"></script>
+  
+  
+
+
+  <title>Design Document - Table</title>
+
+  
+</head>
+
+<body data-viewtype="table" data-turbo="false"><div class="layout" id="layout">
+
+    <nav class="layout_nav">
+      <div class="nav">
+
+
+
+  <a
+    data-link="index"
+    class="nav_button"
+    href="../../index.html"
+    title="Project index">
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line x1="9" y1="4" x2="7" y2="4"></line>
+  <line x1="12" y1="9" x2="12" y2="7"></line>
+  <line x1="6" y1="10" x2="10" y2="6"></line>
+  <circle cx="4" cy="12" r="2.25"></circle>
+  <circle cx="12" cy="4" r="2.25"></circle>
+  <circle cx="4" cy="4" r="2.25"></circle>
+  <circle cx="12" cy="12" r="2.25"></circle>
+</svg>
+  </a><a
+    data-link="project_information"
+    class="nav_button"
+    href="../../project_statistics.html"
+    title="Project statistics"
+    data-testid="project-tree-link-project-statistics"
+  >
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M3,11.5 C3.82842712,11.5 4.5,12.1715729 4.5,13 C4.5,13.8284271 3.82842712,14.5 3,14.5 C2.17157288,14.5 1.5,13.8284271 1.5,13 C1.5,12.1715729 2.17157288,11.5 3,11.5 Z"></path>
+  <path d="M8,7.5 C8.82842712,7.5 9.5,8.17157288 9.5,9 L9.5,13 C9.5,13.8284271 8.82842712,14.5 8,14.5 C7.17157288,14.5 6.5,13.8284271 6.5,13 L6.5,9 C6.5,8.17157288 7.17157288,7.5 8,7.5 Z"></path>
+  <path d="M13,1.5 C13.8284271,1.5 14.5,2.17157288 14.5,3 L14.5,13 C14.5,13.8284271 13.8284271,14.5 13,14.5 C12.1715729,14.5 11.5,13.8284271 11.5,13 L11.5,3 C11.5,2.17157288 12.1715729,1.5 13,1.5 Z"></path>
+</svg>
+  </a></div>
+    </nav><aside class="layout_tree">
+      
+  
+
+
+
+<div
+  js-resizable_bar="tree"
+  data-state="open"
+  data-position="left"
+>
+<div class="tree">
+      
+          <div
+            class="tree_item"
+            data-level="1"
+            data-testid="tree-folder-item"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>docs</div>
+        
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_01_user_guide.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="User Guide"
+              data-file_name="strictdoc_01_user_guide.sdoc"
+            >User Guide</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_02_faq.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="F.A.Q."
+              data-file_name="strictdoc_02_faq.sdoc"
+            >F.A.Q.</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_03_development_plan.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Development Plan"
+              data-file_name="strictdoc_03_development_plan.sdoc"
+            >Development Plan</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_10_contributing.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Contributing to StrictDoc"
+              data-file_name="strictdoc_10_contributing.sdoc"
+            >Contributing to StrictDoc</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_11_developer_guide.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Developer Guide"
+              data-file_name="strictdoc_11_developer_guide.sdoc"
+            >Developer Guide</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_20_requirements.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Requirements"
+              data-file_name="strictdoc_20_requirements.sdoc"
+            >Requirements</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_21_design.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Design Document"
+              data-file_name="strictdoc_21_design.sdoc"
+            >Design Document</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_30_credits.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Credits"
+              data-file_name="strictdoc_30_credits.sdoc"
+            >Credits</div>
+          </a>
+      </div>
+</div>
+
+    </aside><aside
+        data-position="right"
+        class="layout_toc"
+      >
+        
+  
+
+
+
+<div
+  js-resizable_bar="toc"
+  data-state="open"
+  data-position="right"
+>
+<turbo-frame
+  id="frame-toc"
+  style="display: contents"
+>
+    <ul
+      data-testid="toc-list"
+      js-collapsible_list="list"
+      class="toc"
+      data-controller="draggable_list collapsible_list"><li data-nodeid="ba1a0dfc21c14a5ea8d2b30a127d1f87"><a href="#1-Overview" data-turbo="false">
+              <span class="section-number">
+                1
+              </span>Overview
+            </a></li><li data-nodeid="16dd85288054421e9cf9f5f3f1808ae0"><a href="#2-Building-blocks" data-turbo="false">
+              <span class="section-number">
+                2
+              </span>Building blocks
+            </a></li><li data-nodeid="9f2f9debde7141baa895cb401b59abd8"><a href="#3-StrictDoc-command-line-application" data-turbo="false">
+              <span class="section-number">
+                3
+              </span>StrictDoc command-line application
+            </a></li><li data-nodeid="58c64ad5f7e14e3e9ada23790e2aac13"><a href="#4-StrictDoc-web-application" data-turbo="false">
+              <span class="section-number">
+                4
+              </span>StrictDoc web application
+            </a><ul><li data-nodeid="4c0c2ec3377c4f0a922229ff1edfdb24"><a href="#4.1-The-HTML-Over-the-Wire-Hotwire-architecture" data-turbo="false">
+              <span class="section-number">
+                4.1
+              </span>The HTML Over the Wire (Hotwire) architecture
+            </a></li></ul>
+            </li><li data-nodeid="ad46ed44a78a40c7a0fadee0662a4907"><a href="#5-Parsing-SDoc-files" data-turbo="false">
+              <span class="section-number">
+                5
+              </span>Parsing SDoc files
+            </a></li><li data-nodeid="e5ed0c7d0bb74439a9e843a9b405ae79"><a href="#6-Implementation-details" data-turbo="false">
+              <span class="section-number">
+                6
+              </span>Implementation details
+            </a><ul><li data-nodeid="3e7a960ae6fa469c9d8702ee989d6dfc"><a href="#6.1-SDOC_IMPL_1-Exporting-document-free-text-to-ReqIF-and-vice-versa" data-turbo="false">
+              <span class="section-number">
+                6.1
+              </span>SDOC_IMPL_1: Exporting document free text to ReqIF and vice versa
+            </a></li><li data-nodeid="857d3184c2a44a37a1eb8e4805a9b724">
+        <a href="#6.2-SDOC_IMPL_2" data-turbo="false">
+          <span class="section-number">
+            6.2
+          </span>SDOC_IMPL_2: Running out of semaphores on macOS</a></li></ul>
+            </li></ul>
+</turbo-frame>
+</div>
+
+      </aside><header class="layout_header">
+      <div class="header">
+
+  
+  <svg class="svg_icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline points="14 5 14 10.5 8 15 2 10.5 2 5 8 1 14 5 8 9.5"></polyline>
+  <polyline points="2.5 5.5 8 9.5 8 15"></polyline>
+</svg>
+  <div
+    class="header__project_name"
+    title="StrictDoc"
+  >StrictDoc
+  </div>
+
+  
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      <turbo-frame id="header_document_title">
+  <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+  <div
+    class="header__document_title"
+    title="Design Document"
+  >
+    Design Document
+  </div>
+</turbo-frame>
+    
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      <div class="viewtype">
+  <div
+    id="viewtype_handler"
+    class="viewtype__handler"
+    aria-expanded="false"
+    aria-controls="viewtype_menu"
+  >
+    <span>Table</span>
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" >
+  <path d="M5 10l3 3 3-3M5 6l3-3 3 3"></path>
+</svg>
+  </div>
+  <menu
+    id="viewtype_menu"
+    class="viewtype__menu"
+    aria-hidden="true"
+    aria-labelledby="viewtype_handler"
+  >
+    <li class="viewtype__menu_header">VIEWS</li>
+    <li>
+      <a
+        data-viewtype_link="document"
+        class="viewtype__menu_item"
+        title="Go to Document view"
+        href="../../strictdoc/docs/strictdoc_21_design.html">
+        Document</a>
+    </li><li>
+      <a
+        data-viewtype_link="table"
+        class="viewtype__menu_item"
+        title="Go to Table view"
+        href="../../strictdoc/docs/strictdoc_21_design-TABLE.html">
+        Table</a>
+    </li><li>
+      <a
+        data-viewtype_link="traceability"
+        class="viewtype__menu_item"
+        title="Go to Traceability view"
+        href="../../strictdoc/docs/strictdoc_21_design-TRACE.html">
+        Traceability</a>
+    </li><li>
+      <a
+        data-viewtype_link="deep_traceability"
+        class="viewtype__menu_item"
+        title="Go to Deep Traceability view"
+        href="../../strictdoc/docs/strictdoc_21_design-DEEP-TRACE.html">
+      Deep traceability</a>
+    </li></menu>
+</div>
+    </div>
+    </header>
+
+    <main class="layout_main">
+      
+  <div class="main">
+    
+      <div class="content">
+        <sdoc-node>
+        <h1 data-testid='document-title'>Design Document</h1>
+        <sdoc-meta><sdoc-meta-label>UID:</sdoc-meta-label>
+          <sdoc-meta-field>SDOC_DD</sdoc-meta-field></sdoc-meta>
+            <div class="free_text"><div class="document">
+<p>This document describes the architecture and the implementation details of StrictDoc. Compared to the User Guide that describes how to use StrictDoc, this Design Document focuses on the &quot;how it works&quot; of StrictDoc.</p>
+</div>
+</div></sdoc-node>
+        <table class="content-view-table">
+          <thead>
+            <tr>
+              <th class="content-view-th">Type</th>
+              <th class="content-view-th">Level</th><th class="content-view-th">UID</th><th class="content-view-th">STATUS</th><th class="content-view-th">TAGS</th><th class="content-view-th">REFS</th>
+              <th class="content-view-th">Title</th>
+              <th class="content-view-th">Statement</th>
+              <th class="content-view-th">Rationale</th>
+              <th class="content-view-th">Comment</th></tr>
+          </thead>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">1</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="1-Overview"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Overview
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>StrictDoc consists of two applications:</p>
+<ol class="arabic simple">
+<li>StrictDoc command-line application (CLI).</li>
+<li>StrictDoc web application.</li>
+</ol>
+<p>Both applications share a significant subset of the backend and frontend logic. The backend logic is written in Python, the frontend logic is written using HTML/CSS, Jinja templates, and a combination of Turbo.js/Stimulus.js frontend libraries.</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">2</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="2-Building-blocks"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Building blocks
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>StrictDoc is based on the following open-source libraries and tools:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head"><strong>Library/tool</strong></th>
+<th class="head"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>TextX</td>
+<td>Used for StrictDoc grammar definition and parsing of the sdoc files.</td>
+</tr>
+<tr><td>Jinja</td>
+<td>Rendering HTML templates.</td>
+</tr>
+<tr><td>Sphinx and Docutils</td>
+<td><ul class="first last simple">
+<li>Support of Restructured Text (reST) format</li>
+<li>Generation of RST documents into HTML</li>
+<li>Generation of RST documents into PDF using LaTeX</li>
+<li>Generating documentation websites using Sphinx.</li>
+</ul>
+</td>
+</tr>
+<tr><td>FastAPI</td>
+<td>Server used for StrictDoc's Web-based user interface.</td>
+</tr>
+<tr><td>Turbo and Stimulus</td>
+<td>Javascript frameworks used for StrictDoc's Web-based user interface.</td>
+</tr>
+<tr><td>Selenium and SeleniumBase</td>
+<td>Used for end-to-end testing of StrictDoc's Web-based user interface.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">3</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="3-StrictDoc-command-line-application"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      StrictDoc command-line application
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>StrictDoc command-line application is at the core of StrictDoc. The command-line interface contains commands for exporting/importing SDoc content from/to other formats and presenting documentation content to a user.</p>
+<p>The command-line application can be seen as a Model-View-Controller application:</p>
+<ul class="simple">
+<li>A command entered by a user gets recognized by the CLI arguments parser.</li>
+<li>Depending on the type of command, a responsible Action (Controller layer) processes the command (export action, import action, etc.).</li>
+<li>The input of the command is transformed by the action using the backend (Model layer) (SDoc, ReqIF, Excel, etc.).</li>
+<li>The resulting output is written back to HTML or other formats (View layer).</li>
+</ul>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">4</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="4-StrictDoc-web-application"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      StrictDoc web application
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>StrictDoc Web application is based on FastAPI / Uvicorn. The end-to-end usage cycle of the web application is as follows:</p>
+<ul class="simple">
+<li>A browser requests documents from a FastAPI server.</li>
+<li>The FastAPI web server parses the SDoc files into memory and converts them into HTML using Jinja templates. The resulting HTML output is given back to the user.</li>
+<li>The Jinja templates are extended with JavaScript logic that allows a user to edit the documents and send the updated content back to the server.</li>
+<li>The server writes the updated content back to the SDoc files stored on a user's file system.</li>
+</ul>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">4.1</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="4.1-The-HTML-Over-the-Wire-Hotwire-architecture"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      The HTML Over the Wire (Hotwire) architecture
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>StrictDoc uses the <a class="reference external" href="https://hotwired.dev">Hotwire architecture</a>.</p>
+<p>The JavaScript framework used by StrictDoc is minimized to Turbo.js/Stimulus.js which helps to avoid the complexity of the larger JS frameworks such as React, Vue, Angular, etc. In accordance with the Hotwire approach, most of the StrictDoc's business logic is done on a server, while Turbo and Stimulus provide a thin layer of JS and AJAX to connect the almost static HTML with the server.</p>
+<p>The Hotwire approach helps to reduce the differences between the static HTML produced by the StrictDoc command-line application and the StrictDoc web application. In both cases, the core content of StrictDoc is a statically generated website with documents. The web application extends the static HTML content with Turbo/Stimulus to turn it into a dynamic website.</p>
+<p>Currently, the web server renders the HTML documents using the same generators that are used by the static HTML export, so the static HTML documentation and the web application interface look identical. The web interface adds the action buttons and other additional UI elements for editing the content.</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">5</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="5-Parsing-SDoc-files"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Parsing SDoc files
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>StrictDoc uses <a class="reference external" href="https://github.com/textX/textX">textX</a>  which is a <tt class="docutils literal"><span class="pre">meta-language</span> for building <span class="pre">Domain-Specific</span> Languages (DSLs) in Python</tt>. The textX itself is based on <a class="reference external" href="https://github.com/textX/Arpeggio">Arpeggio</a> which is a <tt class="docutils literal">Parser interpreter based on PEG grammars written in Python</tt>.</p>
+<p>StrictDoc relies on both tools to get:</p>
+<ul class="simple">
+<li>Declarative grammar description</li>
+<li>Automatic conversion of the parsed blocks into Python objects</li>
+<li>Fast parsing of SDoc files.</li>
+</ul>
+<p>One important implementation detail of Arpeggio that influences StrictDoc user experience is that the parser stops immediately when it encounters an error. For a document that has several issues, the parser highlights only the first error without going any further. When the first error is resolved, the second error will be shown, etc.</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">6</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="6-Implementation-details"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Implementation details
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>This section documents some non-obvious implementation details.</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">6.1</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="6.1-SDOC_IMPL_1-Exporting-document-free-text-to-ReqIF-and-vice-versa"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      SDOC_IMPL_1: Exporting document free text to ReqIF and vice versa
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>ReqIF format does not seem to provide a dedicated convention for a text node to be distinguished from a requirement or a section. StrictDoc implements a workaround: the document's free text is converted to a section with a <tt class="docutils literal">ChapterName</tt> field that equals &quot;Abstract&quot;. And the other way round: when a ReqIF-to-SDoc converter encounters the first section of a document to be &quot;Abstract&quot;, it is converted to a free text.</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">
+                    Requirement</td>
+                <td class="content-view-td content-view-td-meta">
+                  6.2
+                </td>
+                  <td class="content-view-td content-view-td-meta">SDOC_IMPL_2</td>
+                  <td class="content-view-td content-view-td-meta"></td>
+                  <td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta content-view-td-related">
+                </td>
+                <td class="content-view-td content-view-td-title"><sdoc-anchor
+  id="6.2-SDOC_IMPL_2"
+  data-uid="SDOC_IMPL_2"></sdoc-anchor>
+
+
+                    <div class="requirement__title">SDOC_IMPL_2: Running out of semaphores on macOS</div></td>
+                <td class="content-view-td content-view-td-content"><div class="document">
+<p>This an edge case on macOS: Python crashes in the Parallelizer class when
+creating an output queue:</p>
+<pre class="code py literal-block">
+<span class="name builtin pseudo">self</span><span class="operator">.</span><span class="name">output_queue</span> <span class="operator">=</span> <span class="name">multiprocessing</span><span class="operator">.</span><span class="name">Queue</span><span class="punctuation">()</span>
+</pre>
+<p>The fragment of the crash:</p>
+<pre class="code text literal-block">
+sl = self._semlock = _multiprocessing.SemLock(
+OSError: [Errno 28] No space left on device
+</pre>
+</div>
+</td>
+                <td class="content-view-td content-view-td-content"></td>
+                <td class="content-view-td content-view-td-content">
+                </td></tr>
+        </table>
+      </div>
+      
+  </div>
+  
+
+    </main>
+
+    <footer class="layout_footer">
+      <div class="footer">
+        Built with
+        <a
+          class="strictdoc__link"
+          href="https://github.com/strictdoc-project/strictdoc"
+          target="_blank"
+        >StrictDoc</a>
+        <a
+          class="strictdoc__version"
+          href="https://github.com/strictdoc-project/strictdoc/releases/tag/0.0.44a6"
+          target="_blank"
+        >
+          <svg height="16" viewBox="0 0 16 16" version="1.1" width="16" >
+            <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
+          </svg>
+          0.0.44a6
+        </a>
+      </div>
+    </footer>
+
+    <aside class="layout_aside">
+      
+    </aside>
+
+  </div>
+  
+  <div id="modal"></div>
+  <div id="confirm"></div>
+  
+</body>
+</html>

@@ -1,0 +1,943 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8"/>
+  <meta name="keywords" content="strictdoc, documentation, documentation-tool, requirements-management, requirements, documentation-generator, requirement-specifications, requirements-engineering, technical-documentation, requirements-specification"/>
+  <meta name="description" content="strictdoc. Software for technical documentation and requirements management."/>
+
+  <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon"/>
+
+  
+  <link rel="stylesheet" href="../../assets/base.css"/>
+  <link rel="stylesheet" href="../../assets/layout.css"/>
+  <link rel="stylesheet" href="../../assets/content.css"/>
+  <link rel="stylesheet" href="../../assets/node.css"/>
+  <link rel="stylesheet" href="../../assets/requirement.css"/>
+  <link rel="stylesheet" href="../../assets/requirement__temporary.css"/>
+  <link rel="stylesheet" href="../../assets/element.css"/>
+  <link rel="stylesheet" href="../../assets/form.css"/>
+  
+
+  
+  <script type="text/javascript" src="../../assets/viewtype_menu.js"></script>
+  <script type="text/javascript" src="../../assets/resizable_bar.js"></script>
+  
+  
+
+
+  <title>Developer Guide - Table</title>
+
+  
+</head>
+
+<body data-viewtype="table" data-turbo="false"><div class="layout" id="layout">
+
+    <nav class="layout_nav">
+      <div class="nav">
+
+
+
+  <a
+    data-link="index"
+    class="nav_button"
+    href="../../index.html"
+    title="Project index">
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line x1="9" y1="4" x2="7" y2="4"></line>
+  <line x1="12" y1="9" x2="12" y2="7"></line>
+  <line x1="6" y1="10" x2="10" y2="6"></line>
+  <circle cx="4" cy="12" r="2.25"></circle>
+  <circle cx="12" cy="4" r="2.25"></circle>
+  <circle cx="4" cy="4" r="2.25"></circle>
+  <circle cx="12" cy="12" r="2.25"></circle>
+</svg>
+  </a><a
+    data-link="project_information"
+    class="nav_button"
+    href="../../project_statistics.html"
+    title="Project statistics"
+    data-testid="project-tree-link-project-statistics"
+  >
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M3,11.5 C3.82842712,11.5 4.5,12.1715729 4.5,13 C4.5,13.8284271 3.82842712,14.5 3,14.5 C2.17157288,14.5 1.5,13.8284271 1.5,13 C1.5,12.1715729 2.17157288,11.5 3,11.5 Z"></path>
+  <path d="M8,7.5 C8.82842712,7.5 9.5,8.17157288 9.5,9 L9.5,13 C9.5,13.8284271 8.82842712,14.5 8,14.5 C7.17157288,14.5 6.5,13.8284271 6.5,13 L6.5,9 C6.5,8.17157288 7.17157288,7.5 8,7.5 Z"></path>
+  <path d="M13,1.5 C13.8284271,1.5 14.5,2.17157288 14.5,3 L14.5,13 C14.5,13.8284271 13.8284271,14.5 13,14.5 C12.1715729,14.5 11.5,13.8284271 11.5,13 L11.5,3 C11.5,2.17157288 12.1715729,1.5 13,1.5 Z"></path>
+</svg>
+  </a></div>
+    </nav><aside class="layout_tree">
+      
+  
+
+
+
+<div
+  js-resizable_bar="tree"
+  data-state="open"
+  data-position="left"
+>
+<div class="tree">
+      
+          <div
+            class="tree_item"
+            data-level="1"
+            data-testid="tree-folder-item"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>docs</div>
+        
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_01_user_guide.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="User Guide"
+              data-file_name="strictdoc_01_user_guide.sdoc"
+            >User Guide</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_02_faq.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="F.A.Q."
+              data-file_name="strictdoc_02_faq.sdoc"
+            >F.A.Q.</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_03_development_plan.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Development Plan"
+              data-file_name="strictdoc_03_development_plan.sdoc"
+            >Development Plan</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_10_contributing.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Contributing to StrictDoc"
+              data-file_name="strictdoc_10_contributing.sdoc"
+            >Contributing to StrictDoc</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_11_developer_guide.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Developer Guide"
+              data-file_name="strictdoc_11_developer_guide.sdoc"
+            >Developer Guide</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_20_requirements.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Requirements"
+              data-file_name="strictdoc_20_requirements.sdoc"
+            >Requirements</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_21_design.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Design Document"
+              data-file_name="strictdoc_21_design.sdoc"
+            >Design Document</div>
+          </a>
+      
+          <a
+            href="../../strictdoc/docs/strictdoc_30_credits.html"
+            class="tree_item"
+            
+            data-folder="docs"
+            data-testid="tree-document-link"
+          >
+            <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+            <div
+              class="document_title"
+              title="Credits"
+              data-file_name="strictdoc_30_credits.sdoc"
+            >Credits</div>
+          </a>
+      </div>
+</div>
+
+    </aside><aside
+        data-position="right"
+        class="layout_toc"
+      >
+        
+  
+
+
+
+<div
+  js-resizable_bar="toc"
+  data-state="open"
+  data-position="right"
+>
+<turbo-frame
+  id="frame-toc"
+  style="display: contents"
+>
+    <ul
+      data-testid="toc-list"
+      js-collapsible_list="list"
+      class="toc"
+      data-controller="draggable_list collapsible_list"><li data-nodeid="88c4e2ed721845168570cfa5ab4a2de0"><a href="#1-Getting-started" data-turbo="false">
+              <span class="section-number">
+                1
+              </span>Getting started
+            </a><ul><li data-nodeid="1807872573c6455d86639dff3058a13a"><a href="#1.1-System-dependencies" data-turbo="false">
+              <span class="section-number">
+                1.1
+              </span>System dependencies
+            </a><ul><li data-nodeid="b04fb6eba0c642ae970e36ab4c9e3fa4"><a href="#1.1.1-Windows-specific-Long-Path-support" data-turbo="false">
+              <span class="section-number">
+                1.1.1
+              </span>Windows-specific: Long Path support
+            </a></li></ul>
+            </li><li data-nodeid="e64ab8c1805f4a6a8c72f825090e5bc2"><a href="#1.2-Installing-StrictDoc-from-GitHub-developer-mode" data-turbo="false">
+              <span class="section-number">
+                1.2
+              </span>Installing StrictDoc from GitHub (developer mode)
+            </a></li></ul>
+            </li><li data-nodeid="d15346aacda8463580e2fe5891dec91d"><a href="#2-Invoke-for-development-tasks" data-turbo="false">
+              <span class="section-number">
+                2
+              </span>Invoke for development tasks
+            </a></li><li data-nodeid="82888a4311db42deaa81106f8c98f99c"><a href="#3-Main-Check-task" data-turbo="false">
+              <span class="section-number">
+                3
+              </span>Main "Check" task
+            </a></li><li data-nodeid="cf467462a0cd46919f841837c29dfb93"><a href="#4-Python-code" data-turbo="false">
+              <span class="section-number">
+                4
+              </span>Python code
+            </a></li><li data-nodeid="dd635e3bea9c47899d14381219d41fb0"><a href="#5-Git-workflow" data-turbo="false">
+              <span class="section-number">
+                5
+              </span>Git workflow
+            </a></li><li data-nodeid="582f7704dd45460d8566b38dce7354ab"><a href="#6-Frontend-development" data-turbo="false">
+              <span class="section-number">
+                6
+              </span>Frontend development
+            </a></li><li data-nodeid="16a6a99a9e3046799f3ce57f02b86f16"><a href="#7-Running-End-to-End-Web-tests" data-turbo="false">
+              <span class="section-number">
+                7
+              </span>Running End-to-End Web tests
+            </a></li><li data-nodeid="1d1ce455fba54944a844f7c1f2d82693"><a href="#8-Running-integration-tests" data-turbo="false">
+              <span class="section-number">
+                8
+              </span>Running integration tests
+            </a></li><li data-nodeid="bc049d84f8134ff2b93301be02fde664"><a href="#9-Documentation" data-turbo="false">
+              <span class="section-number">
+                9
+              </span>Documentation
+            </a></li><li data-nodeid="9b9388f37ec1460fac133d48f8d10bca"><a href="#10-Conventions" data-turbo="false">
+              <span class="section-number">
+                10
+              </span>Conventions
+            </a></li></ul>
+</turbo-frame>
+</div>
+
+      </aside><header class="layout_header">
+      <div class="header">
+
+  
+  <svg class="svg_icon" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline points="14 5 14 10.5 8 15 2 10.5 2 5 8 1 14 5 8 9.5"></polyline>
+  <polyline points="2.5 5.5 8 9.5 8 15"></polyline>
+</svg>
+  <div
+    class="header__project_name"
+    title="StrictDoc"
+  >StrictDoc
+  </div>
+
+  
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      <turbo-frame id="header_document_title">
+  <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+  <div
+    class="header__document_title"
+    title="Developer Guide"
+  >
+    Developer Guide
+  </div>
+</turbo-frame>
+    
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      <div class="viewtype">
+  <div
+    id="viewtype_handler"
+    class="viewtype__handler"
+    aria-expanded="false"
+    aria-controls="viewtype_menu"
+  >
+    <span>Table</span>
+    <svg class="svg_icon" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" >
+  <path d="M5 10l3 3 3-3M5 6l3-3 3 3"></path>
+</svg>
+  </div>
+  <menu
+    id="viewtype_menu"
+    class="viewtype__menu"
+    aria-hidden="true"
+    aria-labelledby="viewtype_handler"
+  >
+    <li class="viewtype__menu_header">VIEWS</li>
+    <li>
+      <a
+        data-viewtype_link="document"
+        class="viewtype__menu_item"
+        title="Go to Document view"
+        href="../../strictdoc/docs/strictdoc_11_developer_guide.html">
+        Document</a>
+    </li><li>
+      <a
+        data-viewtype_link="table"
+        class="viewtype__menu_item"
+        title="Go to Table view"
+        href="../../strictdoc/docs/strictdoc_11_developer_guide-TABLE.html">
+        Table</a>
+    </li><li>
+      <a
+        data-viewtype_link="traceability"
+        class="viewtype__menu_item"
+        title="Go to Traceability view"
+        href="../../strictdoc/docs/strictdoc_11_developer_guide-TRACE.html">
+        Traceability</a>
+    </li><li>
+      <a
+        data-viewtype_link="deep_traceability"
+        class="viewtype__menu_item"
+        title="Go to Deep Traceability view"
+        href="../../strictdoc/docs/strictdoc_11_developer_guide-DEEP-TRACE.html">
+      Deep traceability</a>
+    </li></menu>
+</div>
+    </div>
+    </header>
+
+    <main class="layout_main">
+      
+  <div class="main">
+    
+      <div class="content">
+        <sdoc-node>
+        <h1 data-testid='document-title'>Developer Guide</h1>
+        
+            <div class="free_text"><div class="document">
+<p>This section contains everything that a StrictDoc developer/contributor should
+know to get the job done.</p>
+<p>StrictDoc is based on Python and maintained as any other Python package on
+GitHub: with linting, tests, and hopefully enough best practice put into the
+codebase.</p>
+<p>The instructions and conventions described below are a summary of what is
+considered to be the currently preferred development style for StrictDoc.</p>
+<p>Any feedback on this development guide is appreciated.</p>
+</div>
+</div></sdoc-node>
+        <table class="content-view-table">
+          <thead>
+            <tr>
+              <th class="content-view-th">Type</th>
+              <th class="content-view-th">Level</th><th class="content-view-th">UID</th><th class="content-view-th">STATUS</th><th class="content-view-th">TAGS</th><th class="content-view-th">REFS</th>
+              <th class="content-view-th">Title</th>
+              <th class="content-view-th">Statement</th>
+              <th class="content-view-th">Rationale</th>
+              <th class="content-view-th">Comment</th></tr>
+          </thead>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">1</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="1-Getting-started"
+  data-uid="DEVGUIDE_GETTING_STARTED"><template>
+  incoming link from:<a href="../../strictdoc/docs/strictdoc_10_contributing.html#_TOP">
+    Contributing to StrictDoc
+  </a></template></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Getting started
+                    </div></td>
+              </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">1.1</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="1.1-System-dependencies"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      System dependencies
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>StrictDoc itself mostly depends on other Python Pip packages, so there is nothing special to be installed.</p>
+<p>You may need to install <tt class="docutils literal">libtidy</tt> if you want to run the integration tests. The HTML markup validation tests depend on libtidy.</p>
+<p>On Linux Ubuntu:</p>
+<pre class="code bash literal-block">
+sudo<span class="whitespace"> </span>apt<span class="whitespace"> </span>install<span class="whitespace"> </span>tidy
+</pre>
+<p>From the core Python packages, StrictDoc needs Invoke, Tox and TOML:</p>
+<pre class="code bash literal-block">
+pip<span class="whitespace"> </span>install<span class="whitespace"> </span>invoke<span class="whitespace"> </span>tox<span class="whitespace"> </span>toml
+</pre>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">1.1.1</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="1.1.1-Windows-specific-Long-Path-support"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Windows-specific: Long Path support
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>As <a class="reference external" href="https://github.com/strictdoc-project/strictdoc/issues/1118">reported</a> by a user, Windows Long Path support has to be enabled on a Windows system.</p>
+<p>You can find information on how to enable the long paths support at <a class="reference external" href="https://pip.pypa.io/warnings/enable-long-paths">https://pip.pypa.io/warnings/enable-long-paths</a>.</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">1.2</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="1.2-Installing-StrictDoc-from-GitHub-developer-mode"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Installing StrictDoc from GitHub (developer mode)
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p><strong>Note:</strong> Use this way of installing StrictDoc only if you want to make changes
+in StrictDoc's source code. Otherwise, install StrictDoc as a normal Pip package by running <tt class="docutils literal">pip install strictdoc</tt>.</p>
+<pre class="code literal-block">
+git clone https://github.com/strictdoc-project/strictdoc.git &amp;&amp; cd strictdoc
+python developer/pip_install_strictdoc_deps.py
+python3 strictdoc/cli/main.py
+</pre>
+<p>The <tt class="docutils literal">pip_install_strictdoc_deps.py</tt> installs all dependencies of StrictDoc, but not StrictDoc itself.</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">2</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="2-Invoke-for-development-tasks"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Invoke for development tasks
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>All development tasks are managed using
+<a class="reference external" href="https://www.pyinvoke.org/">Invoke</a> in the <tt class="docutils literal">tasks.py</tt> file. On macOS and
+Linux, all tasks run in dedicated virtual environments. On Windows, invoke uses
+the parent pip environment, which can be a system environment or a user's virtual
+environment.</p>
+<p>Make sure to familiarize yourself with the available developer tasks by running:</p>
+<pre class="code bash literal-block">
+invoke<span class="whitespace"> </span>--list
+</pre>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">3</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="3-Main-Check-task"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Main "Check" task
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>Before doing anything else, run the main <tt class="docutils literal">check</tt> command to make sure that StrictDoc passes all tests on your system:</p>
+<pre class="code bash literal-block">
+invoke<span class="whitespace"> </span>check
+</pre>
+<p>The <tt class="docutils literal">check</tt> command runs all StrictDoc lint and test tasks with the only exception of end-to-end Web tests that are run with a separate task (see below).</p>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">4</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="4-Python-code"
+  data-uid="DEVGUIDE_PYTHON_CODE"><template>
+  incoming link from:<a href="../../strictdoc/docs/strictdoc_10_contributing-TABLE.html#1-Contributor-checklist">
+    Contributor checklist
+  </a></template></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Python code
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<ul class="simple">
+<li>The version of Python is set to be as low as possible given some constraints
+of StrictDoc's dependencies. Ideally, the lowest Python version should only be
+raised when it is consistently deprecated by major software platforms like
+Ubuntu or GitHub Actions.</li>
+<li>All developer tasks are collected in the <tt class="docutils literal">tasks.py</tt> which is run by Invoke
+tool. Run the <tt class="docutils literal">invoke <span class="pre">--list</span></tt> command to see the list of available commands.</li>
+<li>Formatting is governed by <tt class="docutils literal">black</tt> which reformats the code automatically
+when the <tt class="docutils literal">invoke check</tt> command is run.<ul>
+<li>If a string literal gets too long, it should be split into a multiline
+literal with each line being a meaningful word or subsentence.</li>
+</ul>
+</li>
+<li>If a contribution includes changes in StrictDoc's code, at least the
+integration-level tests should be added to the <tt class="docutils literal">tests/integration</tt>. If the
+contributed code needs a fine-grained control over the added behavior, adding
+both unit and integration tests is preferred. The only exception where a
+contribution can contain no tests is &quot;code climate&quot; which is work which
+introduces changes in code but no change to the functionality.</li>
+</ul>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">5</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="5-Git-workflow"
+  data-uid="DEVGUIDE_GIT_WORKFLOW"><template>
+  incoming link from:<a href="../../strictdoc/docs/strictdoc_10_contributing-TABLE.html#1-Contributor-checklist">
+    Contributor checklist
+  </a></template></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Git workflow
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<ul class="simple">
+<li>The preferred Git workflow is &quot;1 commit per 1 PR&quot;. If the work truly deserves
+a sequence of commits, each commit shall be self-contained and pass all checks
+from the <tt class="docutils literal">invoke check</tt> command. The preferred approach: split the work into
+several independent Pull Requests to simplify the work of the reviewer.</li>
+<li>The branch should be always rebased against the main branch. The
+<tt class="docutils literal">git fetch &amp;&amp; git rebase origin/main</tt> is preferred over
+<tt class="docutils literal">git fetch &amp;&amp; git merge main</tt>.</li>
+<li>The Git commit message should follow the format:</li>
+</ul>
+<pre class="code literal-block">
+context: description
+</pre>
+<p>where the context can be a major feature being added or a folder. A form of  <tt class="docutils literal">context: subcontext: description</tt> is also an option. Typical examples:</p>
+<p><tt class="docutils literal">docs: fix links to the grammar.py</tt></p>
+<p><tt class="docutils literal">reqif: native: export/import roundtrip for multiline requirement fields</tt></p>
+<p><tt class="docutils literal">backend/dsl: switch to dynamic fields, with validation</tt></p>
+<p><tt class="docutils literal">Poetry: add filecheck as a dependency</tt></p>
+<ul class="simple">
+<li>Use comma-separated contexts, if the committed work is dedicated to more than one topic. Example:</li>
+</ul>
+<pre class="code literal-block">
+server, UI: update to new requirement styles
+</pre>
+<ul class="simple">
+<li>When a contribution is simply an improvement of existing code without a change
+in the functionality, the commit should be named: <tt class="docutils literal">Code climate: description</tt>. Example:</li>
+</ul>
+<pre class="code literal-block">
+Code climate: fix all remaining major Pylint warnings
+</pre>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">6</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="6-Frontend-development"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Frontend development
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>The shortest path to run the server when the StrictDoc's source code is cloned:</p>
+<pre class="code bash literal-block">
+invoke<span class="whitespace"> </span>server
+</pre>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">7</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="7-Running-End-to-End-Web-tests"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Running End-to-End Web tests
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<pre class="code bash literal-block">
+invoke<span class="whitespace"> </span>test-end2end
+</pre>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">8</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="8-Running-integration-tests"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Running integration tests
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<p>The integration tests are run using Invoke:</p>
+<pre class="code bash literal-block">
+invoke<span class="whitespace"> </span>test-integration
+</pre>
+<p>The <tt class="docutils literal"><span class="pre">--focus</span></tt> parameter can be used to run only selected tests that match a given substring. This helps to avoid running all tests all the time.</p>
+<pre class="code bash literal-block">
+invoke<span class="whitespace"> </span>test-integration<span class="whitespace"> </span>--focus<span class="whitespace"> </span>&lt;keyword&gt;
+</pre>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">9</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="9-Documentation"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Documentation
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<ul class="simple">
+<li>Every change in the functionality or the infrastructure should be documented.</li>
+<li>Every line of documentation shall be no longer than 80 characters. StrictDoc's
+own documentation has a few exceptions, however, the latest preference is
+given to 80 characters per line. Unfortunately, until there is automatic
+support for mixed SDoc/RST content, all long lines shall be edited and
+split by a contributor manually.</li>
+<li>The <tt class="docutils literal">invoke docs</tt> task should be used for re-generating documentation on a
+developer machine.</li>
+</ul>
+</div>
+
+                    </td>
+                  </tr>
+              <tr>
+                <td class="content-view-td content-view-td-type">Section</td>
+                <td class="content-view-td content-view-td-meta">10</td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td><td class="content-view-td content-view-td-meta"></td>
+                <td class="content-view-td content-view-td-title" colspan="4"><sdoc-anchor
+  id="10-Conventions"
+  ></sdoc-anchor>
+
+
+                    <div class="requirement__title">
+                      Conventions
+                    </div></td>
+              </tr><tr>
+                    <td class="content-view-td content-view-td-type">
+                      Free text
+                    </td>
+                    <td class="content-view-td content-view-td-meta">
+                      –
+                    </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      </td><td class="content-view-td content-view-td-meta">
+                      
+                    </td>
+                    <td class="content-view-td" colspan="50">
+                      <div class="document">
+<ul class="simple">
+<li><tt class="docutils literal">snake_case</tt> everywhere, no <tt class="docutils literal"><span class="pre">kebab-case</span></tt>.<ul>
+<li>This rule applies everywhere where applicable: file and folder names, HTML attributes.</li>
+<li>Exception: HTML data-attributes and <tt class="docutils literal">testid</tt> identifiers.</li>
+</ul>
+</li>
+</ul>
+</div>
+
+                    </td>
+                  </tr>
+        </table>
+      </div>
+      
+  </div>
+  
+
+    </main>
+
+    <footer class="layout_footer">
+      <div class="footer">
+        Built with
+        <a
+          class="strictdoc__link"
+          href="https://github.com/strictdoc-project/strictdoc"
+          target="_blank"
+        >StrictDoc</a>
+        <a
+          class="strictdoc__version"
+          href="https://github.com/strictdoc-project/strictdoc/releases/tag/0.0.44a6"
+          target="_blank"
+        >
+          <svg height="16" viewBox="0 0 16 16" version="1.1" width="16" >
+            <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
+          </svg>
+          0.0.44a6
+        </a>
+      </div>
+    </footer>
+
+    <aside class="layout_aside">
+      
+    </aside>
+
+  </div>
+  
+  <div id="modal"></div>
+  <div id="confirm"></div>
+  
+</body>
+</html>
