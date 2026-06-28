@@ -56,3 +56,11 @@ The following order shall be ensured:
 - ...
 - `Docs`
 - `GitHub`
+
+## Table of contents
+
+Each page shall feature a TOC bar.
+
+Rationale: A user can see the page structure easily.
+
+Exception: Main page.
