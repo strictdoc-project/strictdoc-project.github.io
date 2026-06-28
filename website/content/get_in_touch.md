@@ -21,7 +21,7 @@ For real-time chat, join the [StrictDoc Discord channel](https://discord.gg/4BAA
 
 ## Mailing list
 
-For announcements and broader discussions: [strictdoc.groups.io](https://strictdoc.groups.io/)
+For announcements and broader discussions: [strictdoc.groups.io](https://strictdoc.groups.io/).
 
 ## Office hours
 

@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://strictdoc.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://strictdoc.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://strictdoc.io/features/</loc>
+    <loc>http://localhost:1313/features/</loc>
   </url><url>
-    <loc>https://strictdoc.io/get_in_touch/</loc>
+    <loc>http://localhost:1313/get_in_touch/</loc>
   </url><url>
-    <loc>https://strictdoc.io/link_source_code/</loc>
+    <loc>http://localhost:1313/link_source_code/</loc>
   </url><url>
-    <loc>https://strictdoc.io/motivation/</loc>
+    <loc>http://localhost:1313/motivation/</loc>
   </url><url>
-    <loc>https://strictdoc.io/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://strictdoc.io/formats/</loc>
+    <loc>http://localhost:1313/formats/</loc>
   </url><url>
-    <loc>https://strictdoc.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://strictdoc.io/use_cases/</loc>
+    <loc>http://localhost:1313/use_cases/</loc>
   </url>
 </urlset>
