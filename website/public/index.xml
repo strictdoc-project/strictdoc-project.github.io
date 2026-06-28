@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>StrictDoc</title>
-    <link>http://localhost:1313/</link>
+    <link>https://strictdoc.io/</link>
     <description>Recent content on StrictDoc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://strictdoc.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About StrictDoc</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://strictdoc.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>StrictDoc is a Python-based tool for technical documentation and requirements management.&#xA;Open source, Apache 2.0 license Started in 2019 Installable via pip, Python only It was built by engineers working on critical software, who wanted requirements management that fits naturally into a developer workflow: plain text, Git, and the command line.</description>
+      <guid>https://strictdoc.io/about/</guid>
+      <description>StrictDoc is a Python-based tool for technical documentation and requirements management.&#xA;Open source, Apache 2.0 license Started in 2019 Developed in Python It was built by engineers developing critical software who wanted requirements management that fits naturally into a developer workflow: plain text, Git, and the command line. Over time, the tool expanded to include web-based document editing and many other features.&#xA;Presentations about StrictDoc StrictDoc project overview&#xA;A concise slide deck covering the project goals, real-world case studies, motivation, implementation details, and development roadmap.</description>
     </item>
     <item>
       <title>Features</title>
-      <link>http://localhost:1313/features/</link>
+      <link>https://strictdoc.io/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/features/</guid>
-      <description>Structured text formats StrictDoc documents are written in SDoc, a plain-text format designed with traceability in mind. Markdown files can also participate in a StrictDoc project and be included in the traceability graph.&#xA;See Supported formats for a full overview.&#xA;Edit documentation in the browser StrictDoc includes a built-in web interface for editing documentation without leaving the browser.&#xA;Document editing Edit requirements and sections in a familiar document view. Add, move, and update nodes with inline forms.</description>
+      <guid>https://strictdoc.io/features/</guid>
+      <description>Structured text formats StrictDoc documents are written in SDoc, a plain-text format designed with traceability in mind. Markdown files can also participate in a StrictDoc project and be included in the traceability graph.&#xA;See Supported formats for a full overview.&#xA;Publish documentation to HTML StrictDoc generates a static HTML website from your documentation. The generated site includes full navigation, traceability matrices, and requirement coverage views. Suitable for hosting on any static file server or GitHub Pages.</description>
     </item>
     <item>
       <title>Get in touch</title>
-      <link>http://localhost:1313/get_in_touch/</link>
+      <link>https://strictdoc.io/get_in_touch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/get_in_touch/</guid>
+      <guid>https://strictdoc.io/get_in_touch/</guid>
       <description>All StrictDoc features are driven by user feedback. Some users are active contributors to the project.&#xA;Documentation The full documentation is at strictdoc.readthedocs.io, covering installation, configuration, SDoc format reference, and guides for all major workflows.&#xA;GitHub Bug reports, feature requests, and contributions all go through the GitHub repository.&#xA;For questions and longer discussions, use GitHub Discussions.&#xA;Discord For real-time chat, join the StrictDoc Discord channel.&#xA;Mailing list For announcements and broader discussions: strictdoc.</description>
     </item>
     <item>
       <title>Linking requirements to source code</title>
-      <link>http://localhost:1313/link_source_code/</link>
+      <link>https://strictdoc.io/link_source_code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/link_source_code/</guid>
+      <guid>https://strictdoc.io/link_source_code/</guid>
       <description>StrictDoc supports two complementary approaches to linking requirements directly to source code.&#xA;Attach metadata to source code Add lightweight annotations in source files: a comment with a requirement UID. StrictDoc parses these markers and builds the traceability link automatically. The link lives in the source file itself.&#xA;// @relation(REQ-001, scope=function) void process_packet(packet_t *p) { ... } Reference source ranges from requirements Alternatively, point from the requirement document to the specific file, function, or line range that implements it.</description>
     </item>
     <item>
       <title>Motivation</title>
-      <link>http://localhost:1313/motivation/</link>
+      <link>https://strictdoc.io/motivation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/motivation/</guid>
+      <guid>https://strictdoc.io/motivation/</guid>
       <description>Most problems in software projects arise not from errors in the code, but from errors in the requirements. Code implements what was specified. When the specification is wrong, incomplete, or disconnected from what is actually built, the gap between intent and implementation becomes the source of defects, rework, and risk.&#xA;Requirements define the public interface of the work performed. Source code is the implementation. Keeping both connected, visible, and under version control is what StrictDoc is built to support.</description>
     </item>
     <item>
       <title>Supported formats</title>
-      <link>http://localhost:1313/formats/</link>
+      <link>https://strictdoc.io/formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/formats/</guid>
-      <description>StrictDoc uses text formats that enable traceable documentation by combining content and structured metadata in the same file, stored in Git alongside source code.&#xA;SDoc SDoc is StrictDoc&amp;rsquo;s native plain-text format, designed from the ground up with traceability in mind. Requirements, documents, and the links between them are first-class concepts. Human-readable and diff-friendly.&#xA;Markup StrictDoc&amp;rsquo;s markup mirrors the schema of SDoc, allowing rich document content to be expressed within the same structured format.</description>
+      <guid>https://strictdoc.io/formats/</guid>
+      <description>StrictDoc uses text formats that enable traceable documentation by combining content and structured metadata in the same file, stored in Git alongside source code.&#xA;SDoc SDoc is StrictDoc&amp;rsquo;s native plain-text format, designed from the ground up with traceability in mind. Requirements, documents, and the links between them are first-class concepts. Human-readable and diff-friendly.&#xA;Markdown StrictDoc&amp;rsquo;s Markdown dialect mirrors the schema of SDoc, allowing rich document content to be expressed within the same structured format.</description>
     </item>
     <item>
       <title>Use cases</title>
-      <link>http://localhost:1313/use_cases/</link>
+      <link>https://strictdoc.io/use_cases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/use_cases/</guid>
-      <description>StrictDoc is used across a broad range of industries and project types.&#xA;Agile software teams Teams that want requirements to live alongside code, reviewed in pull requests, and traced to tests. Written as plain text, versioned in Git.&#xA;Safety- and security-critical development Projects operating under standards such as DO-178C (airborne software), IEC 62443 (industrial cybersecurity), and similar frameworks need documented traceability between requirements, design, implementation, and verification. StrictDoc provides that structure without requiring a heavyweight commercial tool.</description>
+      <guid>https://strictdoc.io/use_cases/</guid>
+      <description>StrictDoc is used across a broad range of industries and project types.&#xA;Agile software teams Teams that want requirements to live alongside code, reviewed in pull requests, and traced to tests.&#xA;AI-based development StrictDoc enables teams to write structured specifications for AI-assisted development. AI can use these specifications to implement and evolve software while preserving traceability between requirements, implementation, tests, and other engineering artifacts.&#xA;Interface between systems and software Software systems engineering encompasses the activities required to define and prepare software before implementation begins.</description>
     </item>
   </channel>
 </rss>

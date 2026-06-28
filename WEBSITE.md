@@ -2,7 +2,9 @@
 
 ## Key facts
 
-- StrictDoc is an open source project.
+- StrictDoc is an open source project. It is:
+  - Software for technical documentation and requirements management.
+  - Open source requirements tool
 - StrictDoc does not have a logo yet.
 - StrictDoc's color scheme is gray-black-orange, see base.css in this repo.
 - Some but not all screenshots are available at: https://github.com/strictdoc-project/strictdoc/tree/main/docs/_assets.
@@ -57,10 +59,18 @@ The following order shall be ensured:
 - `Docs`
 - `GitHub`
 
+### The Formats
+
+The Formats nav bar item shall expand itself into a subitem list.
+
+The current item on the list should lead to `link_source_code.md`.
+
 ## Table of contents
 
 Each page shall feature a TOC bar.
 
 Rationale: A user can see the page structure easily.
 
-Exception: Main page.
+Exceptions:
+- Main page.
+- Pages that don't have inner sections inside them.

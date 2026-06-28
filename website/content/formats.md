@@ -1,6 +1,6 @@
 ---
 title: "Supported formats"
-description: "StrictDoc works with SDoc, Markup, ReqIF, Excel, PDF, and JSON."
+description: "StrictDoc works with SDoc, Markdown, ReqIF, Excel, PDF, and JSON."
 ---
 
 StrictDoc uses text formats that enable traceable documentation by combining content and structured metadata in the same file, stored in Git alongside source code.
@@ -9,9 +9,9 @@ StrictDoc uses text formats that enable traceable documentation by combining con
 
 SDoc is StrictDoc's native plain-text format, designed from the ground up with traceability in mind. Requirements, documents, and the links between them are first-class concepts. Human-readable and diff-friendly.
 
-## Markup
+## Markdown
 
-StrictDoc's markup mirrors the schema of SDoc, allowing rich document content to be expressed within the same structured format.
+StrictDoc's Markdown dialect mirrors the schema of SDoc, allowing rich document content to be expressed within the same structured format.
 
 ## PDF
 

@@ -1,8 +1,25 @@
 {{ define "main" }}
-<article class="page-content">
+{{ if strings.Contains .TableOfContents "<li>" }}
+<div class="page-layout">
+  <aside class="toc-sidebar">
+    <div class="toc-inner">
+      <p class="toc-label">On this page</p>
+      {{ .TableOfContents }}
+    </div>
+  </aside>
+  <article class="page-content">
+    <div class="page-inner">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+{{ else }}
+<article class="page-content-full">
   <div class="page-inner">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
   </div>
 </article>
+{{ end }}
 {{ end }}

@@ -4,9 +4,13 @@
 
 The HERO TITLE/SUBTITLE shall be as follows with no modification:
 
-HERO TITLE: Structured text. Connected knowledge.
+HERO TITLE: Open-source requirements management and structured documentation.
 
-HERO SUBTITLE: Link software, requirements, technical documentation, and other structured content into a knowledge graph. Keep everything as plain text in Git. Work from the web, IDE, or CLI. Automate through APIs and AI.
+HERO SUBTITLE: StrictDoc helps you create, connect, and manage requirements, documentation, software, and other structured content. Keep everything as plain text in Git. Work from the web, IDE, or CLI. Automate through APIs and AI.
+
+### Primary call-to-action
+
+`pip install strictdoc`
 
 ## What is StrictDoc? (concise short block)
 
@@ -27,8 +31,4 @@ The order here shall be preserved:
 
 6) Documentation and requirements are stored in plain text, in Git. 
 
-8) Agile vs regulated. Used by both Agile projects and companies doing security- and safety-critical software developments (IEC 62443, DO-178C).
-
-## Primary call-to-action
-
-`pip install strictdoc`
+8) Agile vs regulated. Used by both Agile projects and companies doing security- and safety-critical software developments (DO-178C, ECSS, IEC 62443, etc).

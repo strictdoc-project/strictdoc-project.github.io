@@ -22,8 +22,26 @@ See also Formats.
 
 ...
 
+## Project statistics
+
+...
+
+## Source code coverage by requirements
+
+...
+
+## Traceability matrix
+
+...
+
 ## Change tracking with Diff/Changelog
 
 ...
 
 ## Export documentation to PDF
+
+...
+
+## Interoperability with ReqIF
+
+...

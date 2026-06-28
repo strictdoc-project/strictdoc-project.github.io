@@ -10,7 +10,7 @@ There is no database that hides from eye or control.
 
 SDoc format (good slide). Text format designed with traceability in mind.
 
-## Markup
+## Markdown
 
 Mirrors the schema of SDoc.
 

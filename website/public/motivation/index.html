@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Motivation | StrictDoc</title>
@@ -16,7 +16,13 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/features/">Features</a></li>
       <li><a href="/use_cases/">Use cases</a></li>
-      <li><a href="/formats/">Formats</a></li>
+      <li class="nav-dropdown">
+        <a href="/formats/">Formats</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="/formats/">Supported formats</a></li>
+          <li><a href="/link_source_code/">Linking to source code</a></li>
+        </ul>
+      </li>
       <li><a href="/get_in_touch/">Get in touch</a></li>
       <li><a href="https://strictdoc.readthedocs.io/en/stable/" target="_blank" rel="noopener">Docs</a></li>
       <li><a href="https://github.com/strictdoc-project/strictdoc" target="_blank" rel="noopener">GitHub</a></li>
@@ -26,18 +32,33 @@
 
   <main>
     
-<article class="page-content">
-  <div class="page-inner">
-    <h1>Motivation</h1>
-    <p>Most problems in software projects arise not from errors in the code, but from errors in the requirements. Code implements what was specified. When the specification is wrong, incomplete, or disconnected from what is actually built, the gap between intent and implementation becomes the source of defects, rework, and risk.</p>
+
+<div class="page-layout">
+  <aside class="toc-sidebar">
+    <div class="toc-inner">
+      <p class="toc-label">On this page</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#bridging-requirements-and-software">Bridging requirements and software</a></li>
+    <li><a href="#bridging-systems-and-software-engineering">Bridging systems and software engineering</a></li>
+  </ul>
+</nav>
+    </div>
+  </aside>
+  <article class="page-content">
+    <div class="page-inner">
+      <h1>Motivation</h1>
+      <p>Most problems in software projects arise not from errors in the code, but from errors in the requirements. Code implements what was specified. When the specification is wrong, incomplete, or disconnected from what is actually built, the gap between intent and implementation becomes the source of defects, rework, and risk.</p>
 <p>Requirements define the public interface of the work performed. Source code is the implementation. Keeping both connected, visible, and under version control is what StrictDoc is built to support.</p>
 <h2 id="bridging-requirements-and-software">Bridging requirements and software</h2>
 <p>Requirements management and software development are often treated as separate disciplines with separate tools. StrictDoc treats them as one workflow. Requirements live in the same repository as code, are reviewed in the same pull requests, and are traced to the same tests.</p>
 <h2 id="bridging-systems-and-software-engineering">Bridging systems and software engineering</h2>
 <p>Systems engineering produces requirements that software engineering must implement. StrictDoc supports this handoff by providing a shared format and traceability model that both disciplines can work with, without requiring a dedicated enterprise platform for either side.</p>
 
-  </div>
-</article>
+    </div>
+  </article>
+</div>
+
 
   </main>
   <footer class="site-footer">
