@@ -1,0 +1,17 @@
+baseURL = "https://strictdoc.io/"
+languageCode = "en-us"
+title = "StrictDoc"
+
+[params]
+  description = "Technical documentation and requirements management. Open source."
+  docs = "https://strictdoc.readthedocs.io/en/stable/"
+  github = "https://github.com/strictdoc-project/strictdoc"
+  githubDiscussions = "https://github.com/strictdoc-project/strictdoc/discussions"
+  discord = "https://discord.gg/4BAAME9MmG"
+  mailingList = "https://strictdoc.groups.io/"
+  officeHours = "https://calendar.google.com/calendar/embed?src=9e52bdb79398efa1c138c5938a54d48918b2858a9564f7326477879ec27c34b3%40group.calendar.google.com&ctz=Europe%2FBerlin"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
