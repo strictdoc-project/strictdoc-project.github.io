@@ -83,15 +83,40 @@ a:hover { text-decoration: underline; }
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: var(--base-rhythm);
   font-size: calc(1.125 * var(--base-font-size));
   font-weight: 700;
-  color: var(--color-fg-accent);
+  color: var(--color-fg-contrast);
   letter-spacing: -0.01em;
 }
 
 .nav-logo:hover {
   text-decoration: none;
   opacity: 0.8;
+}
+
+.nav-logo img {
+  width: calc(2.5 * var(--base-rhythm));
+  height: calc(2.5 * var(--base-rhythm));
+}
+
+.nav-logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-text span::before {
+  content: attr(data-text);
+}
+
+.nav-logo-text [data-text="Strict"] {
+  font-weight: 700;
+}
+
+.nav-logo-text [data-text="Doc"] {
+  font-weight: 400;
 }
 
 .nav-links {
@@ -103,7 +128,7 @@ a:hover { text-decoration: underline; }
 }
 
 .nav-links a {
-  color: var(--color-fg-main);
+  color: var(--color-fg-contrast);
   font-size: var(--base-font-size);
   font-weight: 500;
 }
