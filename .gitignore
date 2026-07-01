@@ -1,3 +1,5 @@
 # website/
 /.venv/
+/.vscode/
 
+.DS_Store
