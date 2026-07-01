@@ -148,9 +148,20 @@ a:hover { text-decoration: underline; }
 /* Hero */
 
 .hero {
-  background-color: var(--color-bg-main);
+  /* background-color: var(--color-bg-main); */
+  background-color: var(--color-bg-contrast);
   border-bottom: 1px solid var(--color-border);
-  padding: calc(5 * var(--base-padding)) calc(1.5 * var(--base-padding)) calc(6 * var(--base-padding));
+  padding-inline: calc(1.5 * var(--base-padding));
+  padding-block-start: clamp(
+                        calc(2 * var(--base-padding)),
+                        9vw,
+                        calc(7 * var(--base-padding))
+                      );
+  padding-block-end: clamp(
+                        calc(3 * var(--base-padding)),
+                        11vw,
+                        calc(8 * var(--base-padding))
+                      );
 }
 
 .hero-inner {
