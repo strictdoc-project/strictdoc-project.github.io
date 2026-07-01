@@ -1,4 +1,6 @@
 # website/
+website/public/
+
 /.venv/
 /.vscode/
 
