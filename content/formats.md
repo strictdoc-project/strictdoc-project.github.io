@@ -8,11 +8,32 @@ There is no database that hides from eye or control.
 
 ## SDoc
 
-SDoc format (good slide). Text format designed with traceability in mind.
+- SDoc ("strict-doc") is StrictDoc’s native plain-text format.
+- Designed from the ground up with traceability in mind.
+- Requirements, documents, and the links between them are first-class concepts.
+- Human-readable and diff-friendly.
+- Rust-like "strict" experience.
+
+Example:
+
+```strictdoc
+[DOCUMENT]
+TITLE: High-Level Requirements
+PREFIX: HLR-
+
+[REQUIREMENT]
+UID: HLR-1
+TITLE: Initial high-level requirement
+STATEMENT: >>>
+The system shall provide a hello world application.
+<<<
+```
 
 ## Markdown
 
-Mirrors the schema of SDoc.
+- Markdown dialect that adds traceability features.
+- Mirrors the schema of SDoc.
+- Less strict than SDoc but more familiar to users.
 
 ## PDF
 

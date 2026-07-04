@@ -3,7 +3,7 @@ title: "Get in touch"
 description: "Join the StrictDoc community via GitHub, Discord, mailing list, and weekly office hours."
 ---
 
-All StrictDoc features are driven by user feedback. Some users are active contributors to the project.
+The StrictDoc features are driven by user feedback. Some users are active contributors to the project.
 
 ## Documentation
 

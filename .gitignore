@@ -4,5 +4,6 @@
 /.claude/
 /.venv/
 /.vscode/
+/build/
 
 .DS_Store

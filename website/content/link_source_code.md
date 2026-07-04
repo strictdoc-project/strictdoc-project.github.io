@@ -3,7 +3,7 @@ title: "Linking requirements to source code"
 description: "Two ways to connect requirements and source code in StrictDoc."
 ---
 
-StrictDoc supports two complementary approaches to linking requirements directly to source code.
+StrictDoc supports multiple approaches for linking requirements directly to source code.
 
 ## Attach metadata to source code
 
