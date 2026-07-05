@@ -56,7 +56,7 @@ body {
   font-size: var(--base-font-size);
   line-height: var(--base-line-height);
   color: var(--color-fg-main);
-  background-color: var(--color-bg-main);
+  background-color: var(--color-bg-contrast);
 }
 
 a {

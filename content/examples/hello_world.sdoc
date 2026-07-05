@@ -1,0 +1,10 @@
+[DOCUMENT]
+TITLE: Requirements document
+
+[REQUIREMENT]
+UID: REQ-1
+TITLE: Hello World
+STATEMENT: >>>
+The Hello World application shall print the text "Hello, World!".
+<<<
+
