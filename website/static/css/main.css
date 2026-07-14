@@ -138,6 +138,12 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: calc(0.5 * var(--base-rhythm));
+}
+
+.nav-links .icon {
+  flex-shrink: 0;
+  opacity: 0.6;
 }
 
 .nav-links a:hover {
@@ -570,6 +576,7 @@ a:hover { text-decoration: underline; }
   padding: 0;
   display: flex;
   gap: calc(3 * var(--base-rhythm));
+  line-height: 1;
 }
 
 .footer-links a {
