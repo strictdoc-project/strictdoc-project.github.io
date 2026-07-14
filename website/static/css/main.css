@@ -149,7 +149,7 @@ a:hover { text-decoration: underline; }
 
 .hero {
   /* background-color: var(--color-bg-main); */
-  background-color: var(--color-bg-contrast);
+  background-color: var(--color-bg-main);
   border-bottom: 1px solid var(--color-border);
   padding-inline: calc(1.5 * var(--base-padding));
   padding-block-start: clamp(
@@ -270,13 +270,13 @@ a:hover { text-decoration: underline; }
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: calc(2 * var(--base-rhythm));
+  gap: calc(4 * var(--base-rhythm));
 }
 
 .what-is-list li {
   padding-left: calc(1.25 * var(--base-padding));
   border-left: 3px solid var(--color-fg-accent);
-  font-size: var(--font-size-s);
+  font-size: var(--base-font-size);
   line-height: var(--base-line-height);
   color: var(--color-fg-main);
 }
@@ -288,7 +288,7 @@ a:hover { text-decoration: underline; }
 /* Use cases */
 
 .use-cases {
-  background: var(--color-bg-accent);
+  background: var(--color-bg-main);
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   padding: var(--section-padding);
@@ -308,7 +308,7 @@ a:hover { text-decoration: underline; }
 
 .use-cases-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(max(280px, calc(50% - 1.5 * var(--base-rhythm))), 1fr));
   gap: calc(3 * var(--base-rhythm));
   margin-bottom: calc(3.5 * var(--base-rhythm));
 }
