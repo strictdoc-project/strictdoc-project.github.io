@@ -541,6 +541,20 @@ a:hover { text-decoration: underline; }
   overflow-x: auto;
 }
 
+.content-video {
+  margin: calc(1.75 * var(--base-padding)) 0;
+  border: 1px solid var(--color-border-strong);
+  border-radius: calc(1.5 * var(--base-rhythm));
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, .1);
+}
+
+.content-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .page-inner pre code {
   background: none;
   border: none;
