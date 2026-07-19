@@ -156,17 +156,17 @@ a:hover { text-decoration: underline; }
 .hero {
   /* background-color: var(--color-bg-main); */
   background-color: var(--color-bg-main);
-  border-bottom: 1px solid var(--color-border);
+  /* border-bottom: 1px solid var(--color-border); */
   padding-inline: calc(1.5 * var(--base-padding));
   padding-block-start: clamp(
                         calc(2 * var(--base-padding)),
-                        9vw,
+                        7vw,
                         calc(7 * var(--base-padding))
                       );
   padding-block-end: clamp(
-                        calc(3 * var(--base-padding)),
-                        11vw,
-                        calc(8 * var(--base-padding))
+                        calc(2 * var(--base-padding)),
+                        6vw,
+                        calc(6 * var(--base-padding))
                       );
 }
 
@@ -250,16 +250,18 @@ a:hover { text-decoration: underline; }
   text-decoration: none;
 }
 
-/* What is StrictDoc */
+/* What is StrictDoc (features) */
 
 .what-is {
-  background: var(--color-bg-contrast);
+  background: var(--color-bg-main);
+  /* border-top: 1px solid var(--color-border); */
   border-bottom: 1px solid var(--color-border);
   padding: var(--section-padding);
+  padding-top: 0;
 }
 
 .what-is-inner {
-  max-width: 760px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -270,25 +272,90 @@ a:hover { text-decoration: underline; }
   color: var(--color-fg-contrast);
 }
 
-.what-is-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.what-is-grid {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(280px, calc(50% - 1.5 * var(--base-rhythm))), 1fr));
+  gap: calc(3 * var(--base-rhythm));
+  margin-bottom: calc(3.5 * var(--base-rhythm)); */
+
   display: flex;
-  flex-direction: column;
-  gap: calc(4 * var(--base-rhythm));
+  gap: calc(3 * var(--base-rhythm));
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.what-is-list li {
-  padding-left: calc(1.25 * var(--base-padding));
-  border-left: 3px solid var(--color-fg-accent);
+.what-is-item {
+  /* border: 1px solid var(--color-fg-accent); */
+  border-radius: calc(1.5 * var(--base-rhythm));
+  background: var(--color-bg-contrast);
+  padding: calc(1.25 * var(--base-padding));
+
+  display: block;
+  position: relative;
+}
+
+@media (min-width: 480px) {
+  .what-is-item {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .what-is-item {
+    width: 30%;
+  }
+}
+
+.what-is-item,
+.what-is-item:hover {
+  text-decoration: none;
+}
+
+.what-is-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+  /* cursor: pointer; */
+}
+
+.what-is-item::after {
+  /* content: "→"; */
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: calc(3 * var(--base-padding));
+  height: calc(2 * var(--base-padding));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(1.5 * var(--base-font-size)); */
+  color: var(--color-fg-secondary);
+}
+
+.what-is-item:hover::after {
+  color: var(--color-fg-accent);
+}
+
+.what-is-item h3 {
   font-size: var(--base-font-size);
-  line-height: var(--base-line-height);
-  color: var(--color-fg-main);
+  font-weight: 700;
+  margin: 0 0 calc(0.75 * var(--base-rhythm));
+  color: var(--color-fg-contrast);
 }
 
-.what-is-list strong {
-  color: var(--color-fg-contrast);
+.what-is-item p {
+  margin: 0;
+  font-size: var(--base-font-size);
+  color: var(--color-fg-secondary);
+  line-height: var(--base-line-height);
+}
+
+.what-is-link {
+  font-size: var(--base-font-size);
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 
 /* Use cases */
