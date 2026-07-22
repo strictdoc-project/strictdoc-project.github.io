@@ -5,6 +5,7 @@
       <li><a href="{{ .Site.Params.docs }}" target="_blank" rel="noopener">Documentation</a></li>
       <li><a href="{{ .Site.Params.mailingList }}" target="_blank" rel="noopener">Mailing list</a></li>
       <li><a href="{{ .Site.Params.officeHours }}" target="_blank" rel="noopener">Office hours</a></li>
+      <li><a href="mailto:{{ .Site.Params.email }}">{{ partial "icons/email.html" . }}</a></li>
       <li><a href="{{ .Site.Params.discord }}" target="_blank" rel="noopener">{{ partial "icons/discord.html" . }}</a></li>
       <li><a href="{{ .Site.Params.github }}" target="_blank" rel="noopener">{{ partial "icons/github.html" . }}</a></li>
     </ul>
