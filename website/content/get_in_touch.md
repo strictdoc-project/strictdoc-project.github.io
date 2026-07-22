@@ -15,17 +15,17 @@ Bug reports, feature requests, and contributions all go through the [GitHub repo
 
 For questions and longer discussions, use [GitHub Discussions](https://github.com/strictdoc-project/strictdoc/discussions).
 
+## Mailing list
+
+For announcements and broader discussions: [strictdoc.groups.io](https://strictdoc.groups.io/).
+
 ## Discord
 
 For real-time chat, join the [StrictDoc Discord channel](https://discord.gg/4BAAME9MmG).
 
 ## Email
 
-For direct inquiries: [strictdoc.project@gmail.com](mailto:strictdoc.project@gmail.com).
-
-## Mailing list
-
-For announcements and broader discussions: [strictdoc.groups.io](https://strictdoc.groups.io/).
+You can also reach us at [strictdoc.project@gmail.com](mailto:strictdoc.project@gmail.com).
 
 ## Office hours
 
