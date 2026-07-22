@@ -11,6 +11,8 @@ disableKinds = ["taxonomy", "term"]
   discord = "https://discord.gg/4BAAME9MmG"
   mailingList = "https://strictdoc.groups.io/"
   officeHours = "https://calendar.google.com/calendar/embed?src=9e52bdb79398efa1c138c5938a54d48918b2858a9564f7326477879ec27c34b3%40group.calendar.google.com&ctz=Europe%2FBerlin"
+  email = "strictdoc.project@gmail.com"
+  googleAnalytics = "G-WGSLFYRSL5"
 
 [markup]
   [markup.goldmark]

@@ -19,6 +19,10 @@ For questions and longer discussions, use [GitHub Discussions](https://github.co
 
 For real-time chat, join the [StrictDoc Discord channel](https://discord.gg/4BAAME9MmG).
 
+## Email
+
+For direct inquiries: [strictdoc.project@gmail.com](mailto:strictdoc.project@gmail.com).
+
 ## Mailing list
 
 For announcements and broader discussions: [strictdoc.groups.io](https://strictdoc.groups.io/).
